@@ -4,6 +4,460 @@
   Author: Sheryl
 */
 
-.header{
-	background-color: #f6f4f4;
+body {
+	background-image: url(images/bg.png);
 }
+
+/*.container{
+	background-color: #f6f4f4;
+
+}*/
+
+
+.page-content{
+	background-color: #f6f4f4;
+	padding: 50px;
+}
+
+
+
+
+/* Header */
+.navbar {
+	background-color: #f6f4f4;
+	border:none;
+}
+
+.navbar-header img{
+	margin: 12px 0 8px 12px;
+
+}
+
+.navbar a{
+	margin-top: 22px;
+}
+
+
+/* About */
+
+.about{
+	margin-top: 2px;
+	width: 100%;
+}
+
+/* Places */
+
+.places {
+	margin-top: 2px;
+	max-width: 100%;
+}
+
+.places-options{
+	margin-top: 70px;
+
+}
+
+.places-options img{
+	width: 100%;	
+}
+
+	/*causing correct alignment*/
+.places-options2{
+  	padding-left: 15px;
+	padding-right: 15px;
+}
+
+	/*causing correct alignment*/
+.places-options2 [class*='col-'] {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+
+/*Journal*/
+.journal {
+	margin-top: 2px;
+	margin-bottom: 25px;
+	width: 100%;
+}
+
+.words{
+	margin-left: 35px;
+}
+
+
+
+
+
+/*Free Travel Guides*/
+.freeguides{
+	margin-top: 2px;
+	width: 100%;
+}
+
+.info{
+	margin: 15px 12px 20px 34px;
+}
+
+.info1{
+	margin: 30px 12px 20px 34px;
+}
+
+.info2{
+	margin: 15px 12px 20px 34px;
+}
+
+.preferred{
+	margin: 5px 12px 20px 43px;
+}
+
+
+/* Footer */
+
+.footerbg{
+	float: left;
+}
+
+.footer a{
+	margin-top: -96px;
+	margin-left: 25px;
+	float: left;
+}
+
+.socialmedia{
+	padding: 0;
+	list-style: none;
+
+}
+
+.facebook {
+	margin-top: -65px;
+	margin-left: 25px;
+	float: left;
+}
+
+.twitter {
+	margin-top: -65px;
+	margin-left: 65px;
+	float: left;
+}
+
+.instagram {
+	margin-top: -65px;
+	margin-left: 110px;
+	float: left;
+}
+
+
+
+.ads{
+	max-width: 100%;
+	margin: 20px 0 20px 0px;
+
+}
+
+
+.advertise{
+	float: left;
+	margin-top: -50px;
+}
+
+
+
+/*Landing Page*/
+
+.main img{
+	width:100%;
+}
+
+.options{
+	margin-top: 70px;
+}
+
+.options img{
+	width: 100%;
+}
+
+.row-no-pad{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.row-no-pad [class*='col-'] {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+/*Advertisements*/
+
+.avertisements {
+	margin-top: 2px;
+	width: 100%;
+}
+
+.basic h4{
+	text-align: center;
+	background-color: #e8e6e6;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.pro h4{
+	text-align: center;
+	background-color: #e8e6e6;
+	padding: 10px;
+}
+
+.premium h4{
+	text-align: center;
+	background-color: #e8e6e6;
+	padding: 10px;
+}
+
+.description{
+	text-align: center;
+	background-color: #ffffff;
+	padding: 10px;
+}
+
+
+
+
+
+/* Media Query */
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+		.places-options2{
+			  line-height: 0;
+		   
+		  -webkit-column-count: 3;
+		  -webkit-column-gap:   0px;
+		  -moz-column-count:    3;
+		  -moz-column-gap:      0px;
+		  column-count:         3;
+		  column-gap:           0px;
+			
+		}
+
+		.places-options2 img{
+			  line-height: 0;
+		   
+		  width: 100% !important;
+		  height: auto !important; 
+		}
+
+
+		/* Footer */
+
+		.footer img{
+			margin-top: -265px;
+			margin-left: 50px;
+		}
+
+		.footer a{
+			margin-top: 10px;
+			margin-left: 65px;
+			float: left;
+		}
+
+		.socialmedia{
+			padding: 0;
+			list-style: none;
+
+		}
+
+		.facebook {
+			margin-top: 180px;
+			margin-left: -295px;
+			float: left;
+		}
+
+		.twitter {
+			margin-top: 180px;
+			margin-left: -250px;
+			float: left;
+		}
+
+		.instagram {
+			margin-top: 180px;
+			margin-left: -198px;
+			float: left;
+		}
+
+		.ads{
+		max-width: 100%;
+		margin: 20px 0 20px 35px;
+
+}
+
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+		
+		.places-options2{
+			  line-height: 0;
+		   
+		  -webkit-column-count: 3;
+		  -webkit-column-gap:   0px;
+		  -moz-column-count:    3;
+		  -moz-column-gap:      0px;
+		  column-count:         3;
+		  column-gap:           0px;
+			
+		}
+
+		.places-options2 img{
+			  line-height: 0;
+		   
+		  width: 100% !important;
+		  height: auto !important; 
+		}
+
+		/* Footer */
+
+		.footer img{
+			margin-top: -220px;
+			margin-left: 50px;
+		}
+
+		.footer a{
+			margin-top: 10px;
+			margin-left: 65px;
+			float: left;
+		}
+
+		.socialmedia{
+			padding: 0;
+			list-style: none;
+
+		}
+
+		.facebook {
+			margin-top: 160px;
+			margin-left: -300px;
+			float: left;
+		}
+
+		.twitter {
+			margin-top: 160px;
+			margin-left: -250px;
+			float: left;
+		}
+
+		.instagram {
+			margin-top: 160px;
+			margin-left: -195px;
+			float: left;
+		}
+
+
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+		
+		.places-options2{
+			  line-height: 0;
+		   
+		  -webkit-column-count: 3;
+		  -webkit-column-gap:   0px;
+		  -moz-column-count:    3;
+		  -moz-column-gap:      0px;
+		  column-count:         3;
+		  column-gap:           0px;
+			
+		}
+
+		.places-options2 img{
+			  line-height: 0;
+		   
+		  width: 100% !important;
+		  height: auto !important; 
+		}
+
+		/* Footer */
+
+		.footer img{
+			margin-top: -170px;
+			margin-left: 50px;
+		}
+
+		.footer a{
+			margin-top: 10px;
+			margin-left: 65px;
+			float: left;
+		}
+
+		.socialmedia{
+			padding: 0;
+			list-style: none;
+
+		}
+
+		.facebook {
+			margin-top: 105px;
+			margin-left: -50px;
+			float: left;
+		}
+
+		.twitter {
+			margin-top: 105px;
+			margin-left: -100px;
+			float: left;
+		}
+
+		.instagram {
+			margin-top: 105px;
+			margin-left: -95px;
+			float: left;
+		}
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+	.main img{
+		background-image: url(images/main-lg.png);
+	}
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+	/*PLaces*/
+		/*causing correct alignment*/
+	.places-options2{
+	  	padding-left: 45px;
+		padding-right: 15px;
+		margin-top: -40px;
+	}
+
+		/*causing correct alignment*/
+	.places-options2 [class*='col-'] {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	/*Journal*/
+
+	.words{
+	margin-left: 0px;
+}
+
+
+}
+
+
+
+
+
+
