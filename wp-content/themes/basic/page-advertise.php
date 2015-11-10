@@ -42,7 +42,7 @@ Template Name: Advertise With Us Page
 					<div class="premium">
 						<a href="#"><h4>PREMIUM</h4></a>
 						<div class="description">
-							<h5>$100 per month</h5>
+							<h5>$300 per month</h5>
 							<p>Standard Frequency: 150 page loads</p>
 							<p>Viewers Reached: 2600+ clicks per month</p>
 						</div>

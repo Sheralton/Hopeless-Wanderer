@@ -8,6 +8,13 @@ body {
 	background-image: url(images/bg.png);
 }
 
+.red {
+	background-color: red;
+}
+
+.green	{
+	background-color: green;
+}
 /*.container{
 	background-color: #f6f4f4;
 
@@ -115,52 +122,43 @@ body {
 
 /* Footer */
 
-.footerbg{
-	float: left;
+
+.footer {
+	background-image: url(images/footer-bg.png);
+	padding-top: 25px;
+
 }
 
 .footer a{
-	margin-top: -96px;
-	margin-left: 25px;
-	float: left;
 }
 
 .socialmedia{
 	padding: 0;
 	list-style: none;
+	background-color: green;
+	display: block;
 
 }
-
-.facebook {
-	margin-top: -65px;
-	margin-left: 25px;
+.socialmedia li a{
+	display: inline-block;
 	float: left;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	margin-top: 15px;
 }
 
-.twitter {
-	margin-top: -65px;
-	margin-left: 65px;
-	float: left;
-}
-
-.instagram {
-	margin-top: -65px;
-	margin-left: 110px;
-	float: left;
-}
 
 
 
 .ads{
 	max-width: 100%;
-	margin: 20px 0 20px 0px;
-
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
-
 .advertise{
-	float: left;
-	margin-top: -50px;
+	float:right;
+	text-align: right;
 }
 
 
@@ -197,30 +195,49 @@ body {
 	width: 100%;
 }
 
-.basic h4{
+.basic h4 {
 	text-align: center;
 	background-color: #e8e6e6;
 	padding: 10px;
 	text-decoration: none;
+	margin: 0;
 }
 
 .pro h4{
 	text-align: center;
 	background-color: #e8e6e6;
 	padding: 10px;
+	margin: 0;
+	margin-top: 40px;
 }
 
 .premium h4{
 	text-align: center;
 	background-color: #e8e6e6;
 	padding: 10px;
+	margin: 0;
+	margin-top: 40px;
 }
 
 .description{
 	text-align: center;
 	background-color: #ffffff;
 	padding: 10px;
+	margin: 0;
 }
+
+a:link{
+	color:black;
+}
+
+a:visited{
+	color:black;
+	text-decoration: none;
+}
+
+
+
+
 
 
 
@@ -253,47 +270,29 @@ body {
 
 		/* Footer */
 
-		.footer img{
-			margin-top: -265px;
-			margin-left: 50px;
+		.footer {
+			background-image: url(images/footer-bg.png);
+			padding-top: 25px;
+
 		}
 
-		.footer a{
-			margin-top: 10px;
-			margin-left: 65px;
-			float: left;
+		.ads{
+			max-width: 100%;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			margin-left: 35px;
 		}
+
 
 		.socialmedia{
 			padding: 0;
 			list-style: none;
+			background-color: green;
+			display: block;
+			margin-left: 13px;
+
 
 		}
-
-		.facebook {
-			margin-top: 180px;
-			margin-left: -295px;
-			float: left;
-		}
-
-		.twitter {
-			margin-top: 180px;
-			margin-left: -250px;
-			float: left;
-		}
-
-		.instagram {
-			margin-top: 180px;
-			margin-left: -198px;
-			float: left;
-		}
-
-		.ads{
-		max-width: 100%;
-		margin: 20px 0 20px 35px;
-
-}
-
 
 }
 
@@ -319,45 +318,26 @@ body {
 		  height: auto !important; 
 		}
 
-		/* Footer */
 
-		.footer img{
-			margin-top: -220px;
-			margin-left: 50px;
+				/* Footer */
+
+		.footer {
+			background-image: url(images/footer-bg.png);
+			padding-top: 25px;
+
 		}
 
-		.footer a{
-			margin-top: 10px;
-			margin-left: 65px;
-			float: left;
-		}
 
 		.socialmedia{
 			padding: 0;
 			list-style: none;
+			background-color: green;
+			display: block;
+			margin-left: 14px;
 
 		}
 
-		.facebook {
-			margin-top: 160px;
-			margin-left: -300px;
-			float: left;
-		}
-
-		.twitter {
-			margin-top: 160px;
-			margin-left: -250px;
-			float: left;
-		}
-
-		.instagram {
-			margin-top: 160px;
-			margin-left: -195px;
-			float: left;
-		}
-
-
-
+	
 }
 
 /* Portrait tablets and small desktops */
@@ -382,41 +362,24 @@ body {
 		  height: auto !important; 
 		}
 
+		
 		/* Footer */
 
-		.footer img{
-			margin-top: -170px;
-			margin-left: 50px;
+		.footer {
+			background-image: url(images/footer-bg.png);
+			padding-top: 25px;
+
 		}
 
-		.footer a{
-			margin-top: 10px;
-			margin-left: 65px;
-			float: left;
-		}
 
 		.socialmedia{
 			padding: 0;
 			list-style: none;
+			background-color: green;
+			display: block;
+			margin-left: 15px;
 
-		}
 
-		.facebook {
-			margin-top: 105px;
-			margin-left: -50px;
-			float: left;
-		}
-
-		.twitter {
-			margin-top: 105px;
-			margin-left: -100px;
-			float: left;
-		}
-
-		.instagram {
-			margin-top: 105px;
-			margin-left: -95px;
-			float: left;
 		}
 
 }
@@ -450,11 +413,11 @@ body {
 	/*Journal*/
 
 	.words{
-	margin-left: 0px;
+		margin-left: 0px;
+	}
+
 }
 
-
-}
 
 
 

@@ -1,0 +1,112 @@
+
+/* Media Query */
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+		.places-options2{
+			  line-height: 0;
+		   
+		  -webkit-column-count: 3;
+		  -webkit-column-gap:   0px;
+		  -moz-column-count:    3;
+		  -moz-column-gap:      0px;
+		  column-count:         3;
+		  column-gap:           0px;
+			
+		}
+
+		.places-options2 img{
+			  line-height: 0;
+		   
+		  width: 100% !important;
+		  height: auto !important; 
+		}
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+		
+		.places-options2{
+			  line-height: 0;
+		   
+		  -webkit-column-count: 3;
+		  -webkit-column-gap:   0px;
+		  -moz-column-count:    3;
+		  -moz-column-gap:      0px;
+		  column-count:         3;
+		  column-gap:           0px;
+			
+		}
+
+		.places-options2 img{
+			  line-height: 0;
+		   
+		  width: 100% !important;
+		  height: auto !important; 
+		}
+
+	
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+		
+		.places-options2{
+			  line-height: 0;
+		   
+		  -webkit-column-count: 3;
+		  -webkit-column-gap:   0px;
+		  -moz-column-count:    3;
+		  -moz-column-gap:      0px;
+		  column-count:         3;
+		  column-gap:           0px;
+			
+		}
+
+		.places-options2 img{
+			  line-height: 0;
+		   
+		  width: 100% !important;
+		  height: auto !important; 
+		}
+
+		
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+	.main img{
+		background-image: url(images/main-lg.png);
+	}
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+	/*PLaces*/
+		/*causing correct alignment*/
+	.places-options2{
+	  	padding-left: 45px;
+		padding-right: 15px;
+		margin-top: -40px;
+	}
+
+		/*causing correct alignment*/
+	.places-options2 [class*='col-'] {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	/*Journal*/
+
+	.words{
+		margin-left: 0px;
+	}
+
+}
+
+
